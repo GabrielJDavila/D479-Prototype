@@ -1,3 +1,25 @@
 * {
     box-sizing: border-box;
 }
+
+#menu-btn, #close-menu-btn {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    #menu-btn, #close-menu-btn {
+        display: inline-block;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    #nav-menu {
+        background: white;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+}

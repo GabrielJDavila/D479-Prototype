@@ -9,13 +9,16 @@
 </head>
 <body>
     <header>
-        <nav aria-label="Main Navigation">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/attractions">Attractions</a></li>
-                <li><a href="/transportation">Transportation</a></li>
-                <li><a href="/accomodations">Accomodations</a></li>
-                <li><a href="/planning-your-trip">Planning Your Trip</a></li>
+        <button id="menu-btn">☰</button>
+        <button id="close-menu-btn" class="hidden">✕</button>
+
+        <nav id="nav-menu" class="hidden" aria-label="Main Navigation">
+            <ul id="nav-list">
+                <li class="nav-list-item"><a id="nav-list-item-link" href="/">Home</a></li>
+                <li class="nav-list-item"><a id="nav-list-item-link" href="/attractions">Attractions</a></li>
+                <li class="nav-list-item"><a id="nav-list-item-link" href="/transportation">Transportation</a></li>
+                <li class="nav-list-item"><a id="nav-list-item-link" href="/accomodations">Accomodations</a></li>
+                <li class="nav-list-item"><a id="nav-list-item-link" href="/planning-your-trip">Planning Your Trip</a></li>
             </ul>
         </nav>
     </header>
@@ -38,6 +41,14 @@
             <a>Get Started</a>
         </section>
     </main>
+    <footer>
+        <ul>
+            <li><a>Accessability Statement</a></li>
+            <li><a>Terms & Conditions</a></li>
+            <li><a>Privacy Policy</a></li>
+
+        </ul>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
