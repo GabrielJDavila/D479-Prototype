@@ -8,34 +8,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="header-container">
         <button id="menu-btn">☰</button>
         <button id="close-menu-btn" class="hidden">✕</button>
 
         <nav id="nav-menu" class="hidden" aria-label="Main Navigation">
             <ul id="nav-list">
-                <li class="nav-list-item"><a id="nav-list-item-link" href="/">Home</a></li>
-                <li class="nav-list-item"><a id="nav-list-item-link" href="/attractions">Attractions</a></li>
-                <li class="nav-list-item"><a id="nav-list-item-link" href="/transportation">Transportation</a></li>
-                <li class="nav-list-item"><a id="nav-list-item-link" href="/accomodations">Accomodations</a></li>
-                <li class="nav-list-item"><a id="nav-list-item-link" href="/planning-your-trip">Planning Your Trip</a></li>
+                <li class="nav-list-item"><a class="nav-list-item-link" href="/">Home</a></li>
+                <li class="nav-list-item"><a class="nav-list-item-link" href="/attractions">Attractions</a></li>
+                <li class="nav-list-item"><a class="nav-list-item-link" href="/transportation">Transportation</a></li>
+                <li class="nav-list-item"><a class="nav-list-item-link" href="/accomodations">Accomodations</a></li>
+                <li class="nav-list-item"><a class="nav-list-item-link" href="/planning-your-trip">Planning Your Trip</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section>
+    <main class="main-container">
+        <section class="main-sub-section">
             <h1>Welcome to Taniti</h1>
             <img/>
         </section>
 
-        <section>
+        <section class="main-sub-section">
             <h2>Things to Do</h2>
             <img/>
             <a>See All Attractions</a>
         </section>
 
-        <section>
+        <section class="main-sub-section">
+            <h2>Lodgings & Accommodations</h2>
+            <img/>
+            <a>See All</a>
+        </section>
+
+        <section class="main-sub-section">
+            <h2>Transportation</h2>
+            <img/>
+            <a>Read More</a>
+        </section>
+
+        <section id="plan-trip-container" class="main-sub-section">
             <h2>Plan Your Trip Today</h2>
 
             <a>Get Started</a>
@@ -46,7 +58,6 @@
             <li><a>Accessability Statement</a></li>
             <li><a>Terms & Conditions</a></li>
             <li><a>Privacy Policy</a></li>
-
         </ul>
     </footer>
     <script src="index.js"></script>
